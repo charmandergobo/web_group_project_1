@@ -1,7 +1,9 @@
-body {
-  margin: 0;
-}
 
+
+.green_background
+{
+  width:  100vw;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
