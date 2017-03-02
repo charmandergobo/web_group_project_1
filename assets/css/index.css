@@ -1,14 +1,120 @@
 
 
-.green_background
+.green-background
 {
   width:  100vw;
 }
 
+.main{
+  font-size: 1.875em;
+  font-family: sans-serif;
+    /*font: "PT Sans Narrow Bold";*/
+  color: #323232;
+  text-align: center;
+
+}
+.about-box{
+  width: 30%;
+  padding: 2%;
+  background-color: #eeeeee;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.about-box + .about-box{
+  margin-left: 30px;
+}
+.navh1{
+  font-family: "PT Serif";
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  text-align:right;
+}
+section{
+  background-color: #eeeeee;
+  padding: 20px 40px;
+  text-align: center;
+
+.class="about"{
+
+}
+
+h1{
+  font-weight:bold;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.875em;
+  color: #323232;
+}
+
+h2{
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+  padding: 30px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  }
+
+h3{
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+}
+
+p{
+  font-family: "PT Serif",serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+
+#a{
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: orange;
+}
+
+nav p{
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: .9em;
+  color: #323232;
+}
+
+footer h1{
+  font-family: "PT Sans Narrow",sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #323232;
+}
+
+
+
 /* On devices wider than 660px */
-@media(min-width: 660px) {
+@media(max-width: 900px) {
+    .about-box{
+        width: 40%;
+    }
 }
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media(max-width: 600px) {
+    .about-box{
+      width: 90%;
+      display: block;
+        }
+
+    .about-box + .about-box{
+      margin: left, 0;
+      margin-top: 20px;
+    }
 }
